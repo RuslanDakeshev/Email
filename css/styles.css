@@ -8,14 +8,13 @@ body {
   padding-bottom: 36px;
 }
 p,
-h2 ,h1{
+h2,
+h1 {
   margin-block-start: 0px;
 
   margin-block-end: 0px;
 }
-/* .container{
-    
-} */
+
 
 .navigation {
   display: flex;
@@ -36,7 +35,6 @@ h2 ,h1{
 }
 
 .main-text {
-  
   color: #6074aa;
   font-family: Russo One;
   font-size: 32px;
@@ -276,10 +274,9 @@ h2 ,h1{
   font-weight: 400;
   line-height: 150%;
   margin-bottom: 18px;
-  
 }
 .info-text:last-of-type {
-    margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 .image-footer {
   display: block;
@@ -312,8 +309,6 @@ h2 ,h1{
 
   .main-text,
   .main-text-second {
-    
-
     font-size: 36px;
     font-style: normal;
     font-weight: 400;
@@ -344,7 +339,7 @@ h2 ,h1{
   .image-main-mountains {
     top: -93px;
     left: 31%;
-width: 370px;
+    width: 370px;
     height: 289px;
   }
 
@@ -359,115 +354,110 @@ width: 370px;
     width: 200px;
     height: 200px;
   }
-  br{
+  br {
     display: none;
   }
 }
 
 @media screen and (min-width: 1199px) {
-    body {
-        min-width: 1280px;
-        padding-left: 50px;
-        padding-right: 50px;
-        padding-top: 20px;
-        padding-bottom: 50px;
-    }
+  body {
+    min-width: 1280px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
 
-    .image-dollar {
-        margin-top: 16px;
-        margin-left: 40px;
-        width: 80px;
-        height: 90px;
-    }
-.card-container{
+  .image-dollar {
+    margin-top: 16px;
+    margin-left: 40px;
+    width: 80px;
+    height: 90px;
+  }
+  .card-container {
     height: 470px;
-}
-.card-container-second{
+  }
+  .card-container-second {
     height: 470px;
-}
+  }
 
-.card-container-third{
+  .card-container-third {
     height: 550px;
-}
-   
+  }
 
-    .main-text,
-    .main-text-second {
+  .main-text,
+  .main-text-second {
+    font-size: 40px;
+  }
 
+  .second-text {
+    font-size: 40px;
+  }
 
-        font-size: 40px;
-       
-    }
+  .card-text {
+    width: 514px;
+    font-size: 18px;
+  }
 
-    .second-text {
-        font-size: 40px;
-    }
+  .image-main-palm {
+    top: -105px;
+    width: 500px;
+    height: 360px;
+    left: -41px;
+  }
 
-    .card-text {
-        width: 514px;
-        font-size: 18px;
-    }
-
-    .image-main-palm {
-        top: -105px;
-            width: 500px;
-            height: 360px;
-            left: -41px;
-    }
-
-    .second-card-text {
-        width: 514px;
-        font-size: 18px;
-    }
-.image-main-geometry{
-        width: 33%;
-            height: 30%;
-}
-.image-main-geometry-second{
+  .second-card-text {
+    width: 514px;
+    font-size: 18px;
+  }
+  .image-main-geometry {
+    width: 33%;
+    height: 30%;
+  }
+  .image-main-geometry-second {
     height: 300px;
-        width: 37%;
-        top: 71px;
-}
+    width: 37%;
+    top: 71px;
+  }
 
-.image-main-second-card-geometry{
+  .image-main-second-card-geometry {
     height: 300px;
-        width: 37%;
-        top: -48px;
-}
+    width: 37%;
+    top: -48px;
+  }
 
-.image-main-geometry-third{
+  .image-main-geometry-third {
     height: 300px;
-        width: 37%;
-        top: 155px;
-}
+    width: 37%;
+    top: 155px;
+  }
 
-    .image-main-field {
-        top: 45px;
-        width: 35%;
-        height: 360px;
-        right: 0px;
-    }
+  .image-main-field {
+    top: 45px;
+    width: 35%;
+    height: 360px;
+    right: 0px;
+  }
 
-    .image-main-mountains {
-        top: -93px;
-        left: 33%;
-width: 35%;
-        height: 289px;
-    }
+  .image-main-mountains {
+    top: -93px;
+    left: 33%;
+    width: 35%;
+    height: 289px;
+  }
 
-    .third-card-text {
-        margin-top: 220px;
-        width: 531px;
-        font-size: 18px;
-    }
+  .third-card-text {
+    margin-top: 220px;
+    width: 531px;
+    font-size: 18px;
+  }
 
-    .info-text {
-        font-size: 16px;
-    }
+  .info-text {
+    font-size: 16px;
+  }
 
-   
-
-    br {
-        display: none;
-    }
+  body {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }
